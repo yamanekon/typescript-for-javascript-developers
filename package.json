@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node-dev --respawn",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +21,8 @@
     "typescript": "^3.9.9"
   },
   "dependencies": {
-    "ts-node": "^9.1.1"
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.6"
   },
   "description": ""
 }
